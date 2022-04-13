@@ -1,6 +1,6 @@
 {
-    "name": "phonyland-data/generator-data-template",
-    "description": "\ud83d\udd36 Generator Data Template for \ud83d\ude43 Phony Framework",
+    "name": "phonyland-data/phony-generator-http-en",
+    "description": "HTTP Generator (en) for \ud83d\ude43 Phony Framework",
     "license": "MIT",
     "type": "phony-generator-data",
     "keywords": [
@@ -24,18 +24,13 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "phonyland/generator-template": "dev-master"
+        "phonyland/phony-generator-http": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
-            "ergebnis/composer-normalize": true,
-            "infection/extension-installer": true,
-            "pestphp/pest-plugin": true,
-            "phonyland/generator-manager": true,
-            "phpstan/extension-installer": true,
-            "symfony/thanks": true
+            "phonyland/generator-manager": true
         },
         "sort-packages": true
     },
